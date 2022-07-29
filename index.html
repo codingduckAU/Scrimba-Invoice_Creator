@@ -1,0 +1,64 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;800">
+    </head>
+    <body>
+      
+      <header>
+          <div id="main-heading">Invoice creator</div>
+          <div id="main-secondary">Thanks for choosing GoodCorp, LLC!</div>
+      </header>
+      
+      
+      <main>
+          <div class="white-btn-parent">
+            <button id="washcar" class="white-btn">Wash Car: $10</button>
+            <button id="mowlawn" class="white-btn">Mow Lawn: $20</button>
+            <button id="pullweeds" class="white-btn">Pull Weeds: $30</button>
+          </div>
+          
+          <div class="tasktotal">
+            <div id="bodytext" class="leftalign">TASK</div>
+            <div id="bodytext" class="rightalign">TOTAL</div>
+          </div>
+          
+          <div class="items-flex1">
+            <div class="items">Wash Car</div>
+            <div class="remove remove1">Remove</div>
+            <div class="money"><span style="color:#918E9B">$</span>10</div>
+          </div>
+          <div class="items-flex2">
+            <div class="items">Mow Lawn</div>
+            <div class="remove remove2">Remove</div>
+            <div class="money"><span style="color:#918E9B">$</span>20</div>
+          </div>
+          <div class="items-flex3">
+            <div class="items">Pull Weeds</div>
+            <div class="remove remove3">Remove</div>
+            <div class="money"><span style="color:#918E9B">$</span>30</div>
+          </div>
+          
+          <div id="slash"></div>
+          
+          <div class="notestotalamount">
+            <div id="bodytext" class="leftalign">NOTES</div>
+            <div id="bodytext" class="rightalign">TOTAL AMOUNT</div>
+          </div>
+          
+          <div class="cashtotal">
+            <div id="cashtext" class="leftalign">We accept cash, credit card, or PayPal</div>
+            <div id="grandtotal" class="rightalign">$<span id="calctotal">0</span></div>
+          </div>
+          
+          <button id="sendinvoice" class="blue-btn">✉ &nbsp;Send invoice</button>
+          
+          
+          
+          
+      </main>
+      
+      
+        <script src="index.js"></script>
+    </body>
+</html>

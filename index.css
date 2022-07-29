@@ -1,0 +1,185 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: inter;
+}
+
+
+/*---------- TOP HEADING ------------*/
+
+header {
+    background-color: #3A69D2;
+    height: 190px;
+    max-width: 550px;
+    margin: auto;
+}
+
+#main-heading {
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding-top: 59px;
+    
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#main-secondary {
+    text-align: center;
+    padding-top: 8px;
+    
+    font-weight: 400;
+    font-size: 16px;
+}
+
+main {
+    padding-top: 41px;
+    /* border: 1px red solid; */
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.white-btn-parent {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid;  */
+    padding: 0px 38px 0px 38px;
+}
+
+
+/*------------- BUTTONS ------------*/
+
+.white-btn {
+    background-color: #D1D4F4;
+    height: 45px;
+    width: 143px;
+    border: 2px solid #1F2937;
+    border-radius: 7px;
+    
+    font-family: Inter;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4A4E74;
+}
+
+.white-btn:hover {
+    border: 2px solid #FFFFFF;
+}
+
+
+/*----------- MIDDLE TEXT AREA -----------*/
+
+#bodytext {     /* ALL small text styling */
+    font-size: 12px;
+    color: #D5D4D8;
+}
+
+.tasktotal {
+    display: flex;
+    padding-top: 43px;
+}
+
+.leftalign {        /*  GLOBAL USE   */
+    padding-left: 38px;
+}
+
+.rightalign {      /*   GLOBAL USE   */
+    margin-right: 38px;
+    margin-left: auto;
+}
+
+/*---------- CREATED ITEMS ---------*/
+
+
+.items-flex1, .items-flex2, .items-flex3 {
+    display: none;
+    /*  SHOW: display: flex
+              #slash {margin-top: 29px;}
+    
+        HIDE: display: none 
+              #slash {margin-top: 55px;}
+        */
+    padding-left: 38px;
+    margin-top: 24px;
+    
+    color: #F5F5F5;
+    font-weight: 600;
+    font-size: 20px;
+    
+    align-items: center;
+}
+
+.remove {        /*  GLOBAL  */
+    font-size: 8px;
+    color: #D5D4D8;
+    font-weight: 200;
+    padding-left: 15px;
+}
+
+.money {      /*  GLOBAL  */
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 38px;
+    margin-left: auto;
+}
+
+
+
+
+/*------------- SLASH ------------*/
+
+#slash {
+    background-color: #C3C6DB;
+    margin-left: 38px;
+    margin-right: 38px;
+    height: 1px;
+    margin-top: 55px;
+}
+
+/*---------- BOTTOM AREA -----------*/
+
+.notestotalamount {
+    display: flex;
+    padding-top: 16px; 
+}
+
+.cashtotal {
+    display: flex;
+    padding-top: 16px;
+}
+
+#cashtext {
+    font-size: 12px;
+    color: #1F2937;
+    /* hide: #1F2937, show: #D5D4D8 */
+}
+
+#grandtotal {
+    font-weight: 600;
+    font-size: 36px;
+    color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+.blue-btn {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 7px;
+    border: 0px;
+    /* border: 2px green solid; */
+    
+    background-color: #3A69D2;
+    color: white;
+    font-family: inter;
+    font-size: 16px;
+}
